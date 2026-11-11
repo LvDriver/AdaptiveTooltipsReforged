@@ -1,0 +1,22 @@
+### Gradle ###
+.gradle/
+build/
+repo/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IDE ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.vscode/
+
+### Runtime ###
+run/
+run-*/
+*.log
+
+### OS ###
+.DS_Store
+Thumbs.db

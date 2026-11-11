@@ -1,0 +1,17 @@
+{
+  "package": "dev.isxander.adaptivetooltips.mixins",
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BundleTooltipComponentAccessor",
+    "WidgetTooltipHolderMixin",
+    "ClientTextTooltipAccessor",
+    "GameRendererMixin",
+    "GuiGraphicsMixin",
+    "HoveredTooltipPositionerMixin",
+    "MouseMixin",
+    "TooltipMixin",
+    "TooltipRenderUtilMixin"
+  ]
+}

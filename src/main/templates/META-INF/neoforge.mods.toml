@@ -1,0 +1,44 @@
+# NeoForge mod metadata. Fields in curly-brace placeholders are expanded by the generateModMetadata task.
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+issueTrackerURL="https://github.com/LvDriver/AdaptiveTooltipsReforged/issues"
+displayURL="https://github.com/LvDriver/AdaptiveTooltipsReforged"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="LvDriver"
+credits="Originally created by isXander as Adaptive Tooltips 1.3.0 (LGPL-3.0-or-later). NeoForge 1.21.1 port by LvDriver."
+logoFile="icon.png"
+description='''
+A NeoForge 1.21.1 port of Adaptive Tooltips 1.3.0 by isXander.
+Highly configurable tooltip rendering: text wrapping, positioning, scrolling, transparency and a YACL config screen.
+
+Adaptive Tooltips 1.3.0（作者 isXander，Fabric 1.20.1/1.20.2）的 NeoForge 1.21.1 移植版。
+'''
+
+[[mixins]]
+config="adaptive-tooltips.mixins.json"
+
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.${mod_id}]]
+modId="yet_another_config_lib_v3"
+type="required"
+versionRange="[3.8.0,)"
+ordering="NONE"
+side="CLIENT"
